@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 28px;
 }
 
 h2, p {
@@ -14,8 +13,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #FFD700;
-  position: sticky;
-  top: 0;
 }
 
 ul li {
@@ -33,7 +30,18 @@ ul li a {
 ul li a:hover {
   background-color: #00F;
 }
+</style>
+</head>
+<body>
 
-ul li a.active {
-  background-color: #800080;
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
 }
