@@ -13,7 +13,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #333333;
+background-color: #87CEEB;
 position: sticky;
 top: 0;
 }
@@ -31,7 +31,7 @@ text-decoration: none;
 }
 
 ul li a:hover {
-background-color: #111111;
+background-color: #8A2BE2;
 }
 
 ul li a.active {
