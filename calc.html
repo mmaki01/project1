@@ -5,48 +5,50 @@
 
 <script>
 function add()  {
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) + Number(b);
-document.getElementById("ans").innerHTML = c;
+  let a = document.getElementById("fn").value;
+  let b = document.getElementById("sn").value;
+  let c = Number(a) + Number(b);
+  document.getElementById("ans").innerHTML = c;
 }
 
 function sub()  {
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) - Number(b);
-document.getElementById("ans").innerHTML = c;
+  let a = document.getElementById("fn").value;
+  let b = document.getElementById("sn").value;
+  let c = Number(a) - Number(b);
+  document.getElementById("ans").innerHTML = c;
 }
 
-function() mult  {
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) * Number(b);
-document.getElementById("ans").innerHTML = c;
+function mult()  {     /* FIXED */
+  let a = document.getElementById("fn").value;
+  let b = document.getElementById("sn").value;
+  let c = Number(a) * Number(b);
+  document.getElementById("ans").innerHTML = c;
 }
 
-function() div  {
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) / Number(b);
-document.getElementById("ans").innerHTML = c;
+function div()  {      /* FIXED */
+  let a = document.getElementById("fn").value;
+  let b = document.getElementById("sn").value;
+  let c = Number(a) / Number(b);
+  document.getElementById("ans").innerHTML = c;
 }
 </script>
-    
 </head>
+
 <body>
 <h3>This is a sample JavaScript and HTML document.</h3>
 
-<p>First number? <input = "fn"> <br>
-  Second number? <input = "sn"> <br>
+<p>
+  First number? <input id="fn"> <br>   <!-- FIXED -->
+  Second number? <input id="sn"> <br> <!-- FIXED -->
+</p>
+
 <button onclick="add()"> + </button>
-    Your answer is <span id="ans">__________</span></p>
 <button onclick="sub()"> - </button>
-     Your answer is <span id="ans">__________</span></p>
 <button onclick="mult()"> * </button>
-     Your answer is <span id="ans">__________</span></p>
 <button onclick="div()"> / </button>
-    Your answer is <span id="ans">__________</span></p>
+
+<p>Your answer is <span id="ans">__________</span></p>
 
 </body>
 </html>
+
