@@ -1,0 +1,13 @@
+<head>let P = ((r/100/12) * PV) / (1-(1+(r/100/12))**-(n*12));</head>
+<label>Loan Amount: </label>
+    <input id="amount" type="number"><br><br>
+
+    <label>Annual Interest Rate (%): </label>
+    <input id="rate" type="number"><br><br>
+
+    <label>Loan Term (years): </label>
+    <input id="years" type="number"><br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+document.getElementById("ans").innerHTML = "If you take a loan for $" + PV + " your payment will be $" + P.toFixed(2);
